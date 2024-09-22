@@ -1,0 +1,59 @@
+body {
+  background-color: #00000049; /* Light gray background for the entire page */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Font for the entire page */
+}
+.table {
+  display: grid;
+  grid-template-columns: 20% 53% 9% 18%; /* 3 columns of equal width */
+  gap: 5px; /* Gap between items */
+  max-width: 1400px; /* Optional: set a max-width for the container */
+  margin: 20px auto; /* Center the table */
+}
+.cell {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 5px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight:600;
+}
+.cell1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size:23px;
+}
+.cell2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.cell3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+
+}
+.cell4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
