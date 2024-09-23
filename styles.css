@@ -1,14 +1,14 @@
 body {
-  background-color: #00000049; /* Light gray background for the entire page */
-  margin: 0; /* Remove default margin */
-  font-family: Arial, sans-serif; /* Font for the entire page */
+  background-color: #00000049; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
 }
 .table {
   display: grid;
-  grid-template-columns: 20% 53% 9% 18%; /* 3 columns of equal width */
-  gap: 5px; /* Gap between items */
-  max-width: 1400px; /* Optional: set a max-width for the container */
-  margin: 20px auto; /* Center the table */
+  grid-template-columns: 20% 53% 9% 18%; 
+  gap: 5px; 
+  max-width: 1400px; 
+  margin: 20px auto; 
 }
 .cell {
   padding: 20px;
